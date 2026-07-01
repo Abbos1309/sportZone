@@ -1,0 +1,9 @@
+{
+    "superAdmin":[
+        {
+            "id":1,
+            "login":"superAdmin",
+            "password":"super123"
+        }
+    ]
+}
