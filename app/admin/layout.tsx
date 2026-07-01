@@ -9,7 +9,6 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   return (
     <div className="flex min-h-screen bg-zinc-900 text-zinc-100">
       
-      {/* MANA SHU YERGA HOZIRGI SIDEBAR KODINGIZNI QO'YASIZ */}
       <div className="w-64 bg-zinc-950 text-zinc-100 flex flex-col justify-between p-5 min-h-screen border-r border-zinc-800/40 shadow-2xl relative overflow-hidden">
         <div className="absolute top-[-50px] left-[-50px] w-40 h-40 bg-blue-500/10 rounded-full blur-[80px] pointer-events-none" />
         <div>
@@ -45,7 +44,6 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
         </div>
       </div>
 
-      {/* O'NG TOMONDA ESA DINAMIK SAHIFALAR CHIQADI */}
       <main className="flex-1 p-8 overflow-y-auto">
         {children}
       </main>
