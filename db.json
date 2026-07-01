@@ -1,9 +1,17 @@
 {
-    "superAdmin":[
-        {
-            "id":1,
-            "login":"superAdmin",
-            "password":"super123"
-        }
-    ]
+  "superAdmin": [
+    {
+      "login": "superAdmin",
+      "password": "super123",
+      "id": "1"
+    }
+  ],
+  "gym": [
+    {
+      "name": "Parlament",
+      "location": "5-Mikrarayon",
+      "id": "ZnkilgnS29k"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
