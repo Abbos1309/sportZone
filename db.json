@@ -16,14 +16,27 @@
       "name": "Semurg'",
       "location": "5-mikrarayon",
       "id": "zKOldrFS33s"
+    },
+    {
+      "name": "Life Fitness",
+      "location": "bozorcha buxoro",
+      "id": "0iOCSnO9pFw"
     }
   ],
   "admin": [
     {
-      "id": "1",
-      "login": "admin",
-      "password": "admin67",
-      "gymId": "ZnkilgnS29k"
+      "login": "murod@gmail.com",
+      "password": "murod123",
+      "gymId": "ZnkilgnS29k",
+      "fullname": "murod",
+      "id": "BsZrvBpHQ78"
+    },
+    {
+      "login": "bekir@gmail.com",
+      "password": "bekir123",
+      "gymId": "zKOldrFS33s",
+      "fullname": "bekir",
+      "id": "qRzeHuaRayY"
     }
   ],
   "users": [],

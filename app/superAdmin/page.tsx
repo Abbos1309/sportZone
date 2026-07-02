@@ -252,6 +252,13 @@ export default function Page() {
                         >
                           Delete
                         </button>
+
+                        <button
+                          onClick={() => router.push(`/superAdmin/${item.id}`)}
+                          className="rounded-xl border  bg-sky-500/10 px-4 py-2 font-medium text-sky-200 hover:bg-sky-500/20"
+                        >
+                          Admin
+                        </button>
                       </div>
                     </div>
                   ))
