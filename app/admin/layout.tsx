@@ -49,7 +49,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
               </span>
             )}
             {isLoggedIn ? (
-              <Link href="/admin/create-job" className={linkClass}>
+              <Link href="/admin/ta'riflar" className={linkClass}>
                 <span className="text-xl text-zinc-500 group-hover:text-blue-400 transition-colors"><FiLayers/></span>
                 <span className="font-medium text-sm tracking-wide">Ta'riflar</span>
               </Link>
@@ -60,7 +60,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
               </span>
             )}
             {isLoggedIn ? (
-              <Link href="/admin/applies" className={linkClass}>
+              <Link href="/admin/hisobotlar" className={linkClass}>
                 <span className="text-xl text-zinc-500 group-hover:text-blue-400 transition-colors"><BsCalculator/></span>
                 <span className="font-medium text-sm tracking-wide">Hisobot</span>
               </Link>

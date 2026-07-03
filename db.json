@@ -39,6 +39,13 @@
       "id": "qRzeHuaRayY"
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "fullName": "Akobir Muzafarov",
+      "phone": "+998931571209",
+      "gymId": "ZnkilgnS29k",
+      "id": "NiG0OcEZGSI"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
