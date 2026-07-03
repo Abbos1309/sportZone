@@ -37,8 +37,22 @@
       "gymId": "zKOldrFS33s",
       "fullname": "bekir",
       "id": "qRzeHuaRayY"
+    },
+    {
+      "login": "sardor321",
+      "password": "sashka",
+      "gymId": "0iOCSnO9pFw",
+      "fullname": "sardor",
+      "id": "TET0qhRNfaM"
     }
   ],
-  "users": [],
+  "users": [
+    {
+      "fullName": "mustafo",
+      "phone": "90123123",
+      "gymId": "ZnkilgnS29k",
+      "id": "RdAeVHKtbbc"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

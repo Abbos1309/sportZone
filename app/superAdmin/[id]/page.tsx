@@ -24,12 +24,10 @@ export default function AdminGymPage() {
     const [admins, setAdmins] = useState<AdminData[]>([]);
     const [editingId, setEditingId] = useState<string | null>(null);
 
-    // SuperAdmin loginini saqlash uchun state
     const [superAdminLogin, setSuperAdminLogin] = useState("Super Admin");
 
     useEffect(() => {
-        // 1. LocalStorage dan superAdmin loginini olish
-        const savedLogin = localStorage.getItem("superAdminLogin"); // yoki kalit so'z qanday bo'lsa o'shani yozasiz
+        const savedLogin = localStorage.getItem("superAdminLogin");
         if (savedLogin) {
             setSuperAdminLogin(savedLogin);
         }
@@ -137,7 +135,6 @@ export default function AdminGymPage() {
 
             <h1 className="text-center text-3xl font-normal my-6">{gymName}</h1>
 
-            {/* Input Form va Admin ro'yxati quyi qismda davom etadi... */}
             <section className="flex flex-wrap items-center justify-center gap-4 mb-8">
                 <input
                     type="text"
